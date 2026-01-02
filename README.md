@@ -41,7 +41,8 @@
 | `GH_USERNAME` | **您的 GitHub 账号** | 通常是您的登录邮箱 |
 | `GH_PASSWORD` | **您的 GitHub 密码** | 登录用的密码 |
 | `GH_2FA_SECRET` | **2FA 密钥** | 第二步中复制的那串字符 (请去除空格) |
-
+| `TG_BOT_TOKEN` | **机器人的token**| 
+| `TG_CHAT_ID` | **机器人的id**| 
 ### 第四步：启用工作流权限 (⚠️ 重要)
 由于是 Fork 的仓库，GitHub 默认可能会禁用 Actions 以防止滥用。
 
